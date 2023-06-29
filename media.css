@@ -14,22 +14,25 @@
     }
     header nav .fa-bars{
         display: flex;
-        color: rgb(255, 255, 255);
+        color: rgb(3, 255, 175);
         font-size: 3.5rem;
         margin-right: -10vw;
     }
     header .nav-primaria.ativado{
-        background-color: rgb(107, 107, 107);
+        background: linear-gradient(183deg, rgba(255,255,255,1) 20%, rgba(3,255,175,1) 100%);
         font-size: 2.2rem;
         position: absolute;
         display: grid;
         top: 90px;
+        right:-10vw;
         z-index: 5;
         padding: 1.2vw;
+        border-radius: 20px;
         animation: sobesecao .8s ease-in-out forwards;
     }
     header .nav-primaria.ativado li{
         border-bottom: 1px solid black;
+
     }
 }
 
@@ -44,27 +47,146 @@
         padding: 30px 70px;
     }
     header h1{
-        margin-left: -5vw;
-        font-size: 1.8rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3vw;
+        font-size: 2rem;
     }
     header nav .fa-bars{
         display: flex;
-        color: rgb(255, 255, 255);
+        color: rgb(3, 255, 175);
         font-size: 3.5rem;
         margin-right: -10vw;
     }
     header .nav-primaria.ativado{
-        background-color: rgb(107, 107, 107);
+        background: linear-gradient(183deg, rgba(255,255,255,1) 20%, rgba(3,255,175,1) 100%);
         font-size: 2.2rem;
         position: absolute;
         display: grid;
         top: 90px;
+        right:-10vw;
         z-index: 5;
         padding: 1.2vw;
         animation: sobesecao .8s ease-in-out forwards;
     }
     header .nav-primaria.ativado li{
         border-bottom: 1px solid black;
+    }
+}
+
+@media(max-width:490px){
+    header .nav-primaria{
+        display: none;
+        right: 0vw;
+    }
+
+    header{
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+    header h1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -10vw;
+        font-size: 2rem;
+    }
+    header nav .fa-bars{
+        display: flex;
+        color: rgb(3, 255, 175);
+        font-size: 3.5rem;
+        margin-right: -10vw;
+    }
+    header .nav-primaria.ativado{
+        background: linear-gradient(183deg, rgba(255,255,255,1) 20%, rgba(3,255,175,1) 100%);
+        font-size: 2.2rem;
+        position: absolute;
+        display: grid;
+        top: 90px;
+        right:-10vw;
+        z-index: 5;
+        padding: 1.2vw;
+        animation: sobesecao .8s ease-in-out forwards;
+    }
+    header .nav-primaria.ativado li{
+        border-bottom: 1px solid black;
+    }
+}
+
+@media(max-width:350px){
+    header .nav-primaria{
+        display: none;
+        right: 0vw;
+    }
+
+    header{
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+    header h1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -15vw;
+        font-size: 2rem;
+    }
+    header nav .fa-bars{
+        display: flex;
+        color: rgb(3, 255, 175);
+        font-size: 3.5rem;
+        margin-right: -10vw;
+    }
+    header .nav-primaria.ativado{
+        background: linear-gradient(183deg, rgba(255,255,255,1) 20%, rgba(3,255,175,1) 100%);
+        font-size: 2.2rem;
+        position: absolute;
+        display: grid;
+        top: 100px;
+        right:-10vw;
+        z-index: 5;
+        padding: 1.2vw;
+        animation: sobesecao .8s ease-in-out forwards;
+    }
+    header .nav-primaria.ativado li{
+        border-bottom: 1px solid black;
+    }
+}
+@media(max-width:170px){
+    header .nav-primaria{
+        display: none;
+        right: 0vw;
+    }
+
+    header{
+        justify-content: space-between;
+        padding: 30px 70px;
+    }
+    header h1{
+        display: flex;
+        flex-direction: column;
+        margin-left: -35vw;
+        font-size: .9rem;
+    }
+    header nav .fa-bars{
+        display: flex;
+        color: rgb(3, 255, 175);
+        font-size: 1.5rem;
+        margin-left: 20vw;
+    }
+    header .nav-primaria.ativado{
+        background: linear-gradient(183deg, rgba(255,255,255,1) 20%, rgba(3,255,175,1) 100%);
+        font-size: 2.2rem;
+        position: absolute;
+        display: grid;
+        top: 90px;
+        right:-10vw;
+        z-index: 5;
+        padding: 1.1vw;
+        animation: sobesecao .8s ease-in-out forwards;
+    }
+    header .nav-primaria.ativado li{
+        border-bottom: 1px solid black;
+    }
+    header .nav-primaria.ativado li a{
+        font-size: .8rem;
     }
 }
 

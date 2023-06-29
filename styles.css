@@ -1,14 +1,14 @@
 header{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
 }
 header h1{
-    color:white;  
+    color:rgb(0, 0, 0);  
     margin-left: 2vw;  
 }
 header h1 span{
-    color:red;    
+    color:rgb(3, 255, 175);    
 }
 header ul{
     display: flex;
@@ -16,14 +16,16 @@ header ul{
 
 header nav .fa-bars{
     display: none;
+    color: rgb(3, 255, 175);
 }
 
 header .nav-primaria{
     display: flex;
-    color: white;
+    color: rgb(0, 0, 0);
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
+    margin-right: 10vw;
 }
 header .nav-primaria a{
     font-size: 1.5rem;
